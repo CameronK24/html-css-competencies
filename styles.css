@@ -1,0 +1,66 @@
+/* 23F */
+body {
+    background-image: url('https://wallpaperaccess.com/full/258107.jpg');
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 255, 0);
+}
+
+/* 24C 24D 24E 24F 23E */
+#luigi-image {
+    margin: 10px 20px;
+    border: 5px solid black;
+    padding: 10px 15px;
+    width: 400px;
+    height: auto;
+    background-color: brown;
+}
+
+/* 25D 25C-2 */
+#float {
+    float: right;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+/* 25F 23D-1 23D-2 23D-3 25C-1 */
+#display {
+    display: block;
+    font-weight: 700;
+    color: cadetblue;
+    font-size: 30px;
+    position: relative;
+}
+
+/* 25C-3 22C-1 */
+#position {
+    position: fixed;
+    right: 50%;
+}
+
+/* 22C-2 */
+.list-class {
+    font-size: 25px;
+    background-color: white;
+    width: 30%;
+    color: black;
+}
+
+/* 22C-3 */
+.list-class li {
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+/* 22C-4 */
+.list-class > li {
+    background-color: chartreuse;
+    margin-top: 10px;
+}
+
+/* 22C-5 */
+h1 + h2 {
+    color: coral;
+}
